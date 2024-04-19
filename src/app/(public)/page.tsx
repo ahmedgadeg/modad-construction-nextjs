@@ -8,17 +8,18 @@ import ReadMoreCollapse from "@/components/UI/ReadMoreCollapse";
 import { companies, companies2 } from "@/_staticData/basicDetails";
 import YoutubePlayer from "@/components/YoutubePlayer";
 
-const fetchHome = async () => {
+/*const fetchHome = async () => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_BASE_URI}api/edit-website/home`
   );
   const data = await res.json();
   return data.data || {};
 };
+*/
 
 export default async function Home() {
-  const data = await fetchHome();
-  console.log(data);
+  /*const data = await fetchHome();
+  console.log(data);*/
 
   return (
     <>
